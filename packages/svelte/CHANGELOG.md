@@ -1,5 +1,21 @@
 # svelte
 
+## 5.0.6
+
+### Patch Changes
+
+- fix: properly migrate ts with inferred type comments ([#13761](https://github.com/sveltejs/svelte/pull/13761))
+
+- fix: ensure $effect.tracking returns false inside transition functions ([#13775](https://github.com/sveltejs/svelte/pull/13775))
+
+- fix: migrate default slots to children snippet ([#13760](https://github.com/sveltejs/svelte/pull/13760))
+
+- fix: don't print errors on migration errors ([#13754](https://github.com/sveltejs/svelte/pull/13754))
+
+- fix: prevent spread attribute from overriding class directive ([#13763](https://github.com/sveltejs/svelte/pull/13763))
+
+- fix: show filename information in `legacy_recursive_reactive_block` ([#13764](https://github.com/sveltejs/svelte/pull/13764))
+
 ## 5.0.5
 
 ### Patch Changes
